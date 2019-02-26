@@ -1,0 +1,45 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title"> Survey Form </h1>
+<div id="main">
+<p id="description"> This is a quick survey on social media. </p>
+
+<form id="survey-form">
+  <div>
+    <label id="name-label">Name:</label> <input id="name" class="inputf" type="text" required placeholder="Enter your name here"> 
+  </div>
+  <div>
+    <label id="email-label">Email:</label> <input id="email" class="inputf" type="email" required placeholder="Enter your email here">
+  </div>
+  <div>
+    <label id="number-label">Age:</label> <input id="number" class="inputf" type="number" required placeholder="Age" min="0" max="100">
+  </div>
+  <div>
+  <label id="dropdown-label"> Preferred Social Media: </label>       <select id="dropdown">
+  <option>Facebook</option>
+  <option>Snap</option>
+  <option>Instagram</option>
+  <option>Twitter</option>
+  </select>
+  </div>
+  <div id="radio-box">
+  <label id="radio"> How long do you spend daily: </label>
+    <label>0-30mins </label><input name="radios" type="radio" value="0"> 
+    <label>30mins-1 hour </label><input name="radios" type="radio" value="1"> 
+    <label>1-2 hours </label><input name="radios" type="radio" value="2">
+    <label>2 hours+ </label><input name="radios" type="radio" value="3"> 
+  </div>
+  <div class="checkers">
+    <label id="check" class="radiolabel"> Tick all that you use daily: </label>
+    <label>Facebook</label> <input type="checkbox" value="fb" class="radiolabel"> 
+    <label>Snap</label> <input type="checkbox" value="snap" class="radiolabel"> 
+    <label>Instagram</label> <input type="checkbox" value="insta" class="radiolabel"> 
+    <label>Twitter</label> <input type="checkbox" value="twitter" class="radiolabel"> 
+  </div>
+  
+  <div>
+    <label> Additional Comments </label>
+    <textarea> </textarea>
+  </div>
+  <button id="submit" type="submit">Submit</button>
+</form>

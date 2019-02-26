@@ -1,0 +1,38 @@
+#main {
+  font-family: Arial;
+  background-color: #eee;
+  max-width: 1200px;
+}
+
+#title {
+  font-size: 50px;
+  text-align: center;
+}
+
+#image {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#img-div {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+#tribute-info {
+  font-size: 30px;
+  text-align: center;
+}
+
+#tribute-link {
+  color: blue;
+}
+
+#body {
+  width: 600px;
+  margin: auto;
+}
+
